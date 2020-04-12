@@ -1,0 +1,132 @@
+
+.centralizarImagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.imagem{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+p{
+    font-weight:bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    min-height: 10vh;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.botao{
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 115px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.botao-green{
+    background-color: green;
+    color: #fff;
+    box-shadow: 0 5px 0 #006000;
+}
+
+.botao-green:hover{
+    background: #006000;
+    color: #fff;
+    box-shadow: 0 5px 0 #006040;
+}
+
+.botao-green:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.botao-red{
+    background-color: red;
+    color: #fff;
+    box-shadow: 0 5px 0 #720107e8;
+}
+
+.botao-red:hover{
+    background: #af020bdc;
+    color: #fff;
+    box-shadow: 0 5px 0 #600005ef;
+}
+
+.botao-red:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.botao-blue{
+    background-color: blue;
+    color: #fff;
+    box-shadow: 0 5px 0 #01023f;
+}
+
+.botao-blue:hover{
+    background: #01023f;
+    color: #fff;
+    box-shadow: 0 5px 0 #02048b;
+}
+
+.botao-blue:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.botao-yellow{
+    background-color: #dac405;
+    color: #fff;
+    box-shadow: 0 5px 0 yellow;
+}
+
+.botao-yellow:hover{
+    background: yellow;
+    color: #fff;
+    box-shadow: 0 5px 0 #dac405;
+}
+
+.botao-yellow:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.font{
+    font: 20px sans-serif;
+}
+
+.borda_texto{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: 40px; color: gray;
+}
+
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:700px; } */
+}
+
+@media only screen and (max-device-width: 700px) {
+    /* .menu { width:600px; } */
+}
+
